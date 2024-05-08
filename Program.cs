@@ -19,7 +19,7 @@ namespace Ação_Social_PIB
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
-            string enviroment = "PROD";
+            string enviroment = "PROD"; //Define se a base será criada num path do cliente ou do projeto
            
             string configFilePath = "config.json";  // Caminho do arquivo JSON de configuração
             string jsonContent = File.ReadAllText(configFilePath); // Lê o conteúdo do arquivo 

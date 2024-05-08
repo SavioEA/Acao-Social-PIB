@@ -126,70 +126,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuscarCadastro.cs">
+    <Compile Include="Forms\Cadastro\BuscarCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BuscarCadastro.Designer.cs">
+    <Compile Include="Forms\Cadastro\BuscarCadastro.Designer.cs">
       <DependentUpon>BuscarCadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DataBaseHandler.cs" />
-    <Compile Include="GerarEntrega.cs">
+    <Compile Include="Forms\Entrega\GerarEntrega.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GerarEntrega.Designer.cs">
+    <Compile Include="Forms\Entrega\GerarEntrega.Designer.cs">
       <DependentUpon>GerarEntrega.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificaApagarCadastro.cs">
+    <Compile Include="Forms\Cadastro\ModificaApagarCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModificaApagarCadastro.Designer.cs">
+    <Compile Include="Forms\Cadastro\ModificaApagarCadastro.Designer.cs">
       <DependentUpon>ModificaApagarCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="NovoCadastro.cs">
+    <Compile Include="Forms\Cadastro\NovoCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NovoCadastro.Designer.cs">
+    <Compile Include="Forms\Cadastro\NovoCadastro.Designer.cs">
       <DependentUpon>NovoCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="GerarRelatorio.cs">
+    <Compile Include="Forms\GerarRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GerarRelatorio.Designer.cs">
+    <Compile Include="Forms\GerarRelatorio.Designer.cs">
       <DependentUpon>GerarRelatorio.cs</DependentUpon>
     </Compile>
-    <Compile Include="OpcoesEntrega.cs">
+    <Compile Include="Forms\Entrega\OpcoesEntrega.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OpcoesEntrega.Designer.cs">
+    <Compile Include="Forms\Entrega\OpcoesEntrega.Designer.cs">
       <DependentUpon>OpcoesEntrega.cs</DependentUpon>
     </Compile>
-    <Compile Include="PaginaInicial.cs">
+    <Compile Include="Forms\PaginaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaginaInicial.Designer.cs">
+    <Compile Include="Forms\PaginaInicial.Designer.cs">
       <DependentUpon>PaginaInicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BuscarCadastro.resx">
+    <EmbeddedResource Include="Forms\Cadastro\BuscarCadastro.resx">
       <DependentUpon>BuscarCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GerarEntrega.resx">
+    <EmbeddedResource Include="Forms\Entrega\GerarEntrega.resx">
       <DependentUpon>GerarEntrega.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GerarRelatorio.resx">
+    <EmbeddedResource Include="Forms\GerarRelatorio.resx">
       <DependentUpon>GerarRelatorio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificaApagarCadastro.resx">
+    <EmbeddedResource Include="Forms\Cadastro\ModificaApagarCadastro.resx">
       <DependentUpon>ModificaApagarCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NovoCadastro.resx">
+    <EmbeddedResource Include="Forms\Cadastro\NovoCadastro.resx">
       <DependentUpon>NovoCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OpcoesEntrega.resx">
+    <EmbeddedResource Include="Forms\Entrega\OpcoesEntrega.resx">
       <DependentUpon>OpcoesEntrega.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaginaInicial.resx">
+    <EmbeddedResource Include="Forms\PaginaInicial.resx">
       <DependentUpon>PaginaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
