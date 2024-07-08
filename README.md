@@ -1,4 +1,5 @@
 # Ação Social PIB
+
 ![](/screenshots/print-pagina-inicial.png)
 
 ### Sistema baseado no Windows Forms para a Ação Social da igreja que frequento, a Primeira Igreja Batista de Bom Jesus do Itabapoana.
@@ -6,6 +7,7 @@
 ## O aplicativo consiste num sistema com uma interface para o usuário no qual ele pode:
 
 **- Salvar cadastros de pessoas que receberão cestas básicas da igreja (Uma base de dados SQLite, para salvamento local);**
+
 ![](/screenshots/print-novo-cadastro.png)
 
 **- Alterar ou apagar esses cadastros;**
@@ -14,9 +16,11 @@
 **qual o número máximo de meses que uma família pode receber as cestas e se essa família poderia voltar a receber);**
 
 **- Gerar uma entrega (uma entrega é sugerida para os dados contidos nas opções);**
+
 ![](/screenshots/print-gerar-entrega.png)
 
 **- Exportar um relatório excel com todas as entregas (separadas individualmente por família) dos últimos 12 meses.**
+
 ![](/screenshots/print-exportar-relatorio.png)
 
 
